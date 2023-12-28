@@ -14,7 +14,7 @@ class FileResponse(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, Mindspace ai!"}
+    return {"message": "Hello, Mindspace!"}
 
 @app.post("/items/")
 def create_item(item: Item):
